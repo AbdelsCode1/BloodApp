@@ -1,0 +1,472 @@
+html{
+    scroll-behavior: smooth;
+}
+html body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-color: #fcfdfe;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing:border-box;
+    font-family: sans-serif;
+}
+
+
+nav{
+    position: sticky;
+}
+
+
+nav{
+    padding: 10px 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #ffffff;
+    border-top: 10px rgb(184, 5, 5) solid;
+    position: relative;
+    height: 100px;
+    width: 100%;
+    box-shadow: 0px 1px 0px 1px rgba(0, 0, 0, 0.089);
+    
+}
+
+.logo{
+    color: #000000;
+}
+
+nav ul{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+nav ul li{
+    list-style-type: none;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #080808;
+}
+
+nav a{
+    text-decoration: none;
+    color: black
+}
+
+.menu-icon{
+    display: none;
+}
+
+.menu-icon i{
+    color: #c50c0c;
+    font-size: 30px;
+}
+
+nav ul li:hover{
+    text-decoration:underline rgb(216, 12, 12) solid;
+   
+}
+
+nav h1{
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+
+@media screen and (max-width:900px) and (min-width:375px){
+    html body{
+        height: 100%;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+
+    .btn.btn-primary{
+        margin-top: 5px;
+    }
+
+
+}
+
+@media (min-width:419px) {
+    html body{
+        height: 100%;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+
+}
+}
+@media (max-width:600px) {
+
+html body{
+        height: 100%;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+
+    nav ul{
+        position: absolute;
+        top: 80px;
+        left: 0;
+        right: 0;
+        flex-direction: row;
+        text-align: center;
+        background: #fcfdfe;
+        gap: 0;
+        overflow: hidden;
+    }
+
+    nav ul li{
+        padding: 20px;
+        padding-top: 0;
+        margin-bottom: 30px;
+    }
+    .menu-icon{
+        display: block;
+    }
+    #menuList{
+        transition: all 0.5s;
+    }
+
+    .words{
+        font-size: 2px;
+    }
+
+    header p{
+        margin-right: 30px;
+    }
+
+    .words p{
+        font-size: 5px;
+    }
+
+    .about{
+       display: flex;
+       flex-direction: column;
+    }
+
+    .about_words{
+        margin-top: 30px;
+    }
+
+    .btn.btn-primary{
+        margin-top: 5px;
+    }
+
+
+}
+
+.landing{
+    background-image: url(Resources/Landing.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+   
+}
+
+
+.landing p{
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(0, 0, 0);
+
+}
+
+
+.words{
+    color: rgb(255, 255, 255);
+    place-content: center;
+    position: relative;
+    padding: 90px;
+    box-sizing: border-box;
+    width: 100%;
+    margin: auto;
+    padding-top: 120px;
+    
+}
+
+
+
+.words h1{
+    font-size: 60px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: rgb(136, 2, 2);
+}
+
+.words, button, h1 p{
+    margin-top: 1px;
+
+}
+
+.first-btn{
+    background-color: rgb(171, 1, 1);
+    border-radius: 8px;
+    height: 50px;
+    width: 170px;
+    font-size: 14px;
+    padding: 6px;
+    border: none;
+    color: white;
+    font-weight: bold;
+    margin-top: 60px;
+}
+
+.modal-body{
+    color: #000000;
+    font-size: 14px;
+}
+
+.modal-body p{
+    font-size: 15px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+.btn.btn-primary{
+    background-color: none;
+    height: 50px;
+    margin-top: 0px;
+    width: 170px ;
+}
+
+.words button:hover{
+    background-color: rgba(211, 4, 4, 0.916);
+}
+
+.plan{
+    margin-top: 10px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.plan p{
+    font-size: 12px;
+    color: #00000072;
+    padding: 5px;
+}
+
+.plan h3{
+    color: rgb(128, 6, 6);
+    font-size: 25px;
+}
+
+hr{
+    width: 410px;
+    margin: auto;
+    border-color: #c30000;
+}
+
+.screen{
+    background-image: url(Resources/Screen.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 150px;
+    width: 200PX;
+    margin-top: 10px;
+    color: #ffffff;
+}
+
+.screen h4{
+    background-color: #00000072;
+    padding: 5px;
+    font-size: 12px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri,;
+    text-align: center;
+}
+
+
+.appointment{
+    background-image: url(Resources/appointment.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 150px;
+    width: 200PX;
+    margin-top: 10px;
+    color: #ffffff; 
+}
+
+.appointment h4{
+    background-color: #00000072;
+    padding: 5px;
+    font-size: 12px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri,;
+    text-align: center;
+}
+
+.container{
+    display:flex;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    gap: 50px;
+    margin: 20px;
+    place-content: center; 
+    
+}
+
+.screen:hover{
+ background-color: #00000072;
+
+}
+
+.donor{
+    background-image: url(Resources/donor.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 150px;
+    width: 200PX;
+    margin-top: 10px;
+    color: #ffffff; 
+}
+
+.donor h4{
+    background-color: #00000072;
+    padding: 5px;
+    font-size: 12px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri,;
+    text-align: center;
+}
+
+
+
+.about{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-top: 10%;
+   margin-bottom: 10%;
+
+}
+
+.about_words{
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri,;
+    width: 50lvw;
+    padding-left: 20px;
+   
+}
+
+
+.about_words  h4{
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT';
+    color: #000000;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border-left: 4px rgb(201, 0, 0) solid;
+    padding-left: 9px;
+
+}
+
+.about_words p{
+    font-size: 20px;
+    line-height: 25px ;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+    text-align: left;
+    text-overflow: ellipsis;
+    padding-left: 9px;
+}
+
+
+
+.about img{
+    width: 250px;
+    overflow: hidden;
+    overflow: hidden;
+}
+
+.about img:hover{
+    animation-name: grow;
+    animation-duration: 2s;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out;    
+}
+
+.about_img{
+    overflow: hidden;
+
+}
+
+.plan hr{
+    margin: auto;
+}
+
+.plan h3{
+    margin-bottom: 0px;
+}
+
+
+.table-container {
+    width: 80%;
+    margin: 20px auto;
+    overflow-x: auto;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    margin-top: 60px;
+}
+
+.styled-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 1em;
+    min-width: 400px;
+    background-color: #ffffff;
+}
+
+.styled-table thead tr {
+    background-color: rgb(139, 0, 0);
+    color: #ffffff;
+    text-align: left;
+}
+
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+}
+
+.styled-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.styled-table tbody tr:last-of-type {
+    border-bottom: 2px solid rgb(139, 0, 0);
+}
+
+.styled-table tbody tr.active-row {
+    font-weight: bold;
+    color: #009879;
+
+
+}
+
+footer{
+    height: 10vh;
+    font-size: 13px;
+    text-align: center;
+    align-content: center;
+    background-color:rgb(139, 0, 0);
+    color: rgb(255, 255, 255);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri,;
+    
+}
+

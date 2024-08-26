@@ -1,0 +1,199 @@
+html body{
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-color: #fcfdfe;
+}
+header{
+    background-color:rgb(134, 0, 89);
+    backdrop-filter:blur(40px) ;
+}
+
+header{
+    background-color:rgb(134, 0, 89);
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(255, 255, 255);
+}
+
+@media screen and (max-width:900px) and (min-width:375px){
+    html body{
+        height: 100%;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+    }
+
+}
+.other{
+    display: flex;
+    justify-content: center;
+}
+
+.logo h1{
+    margin: auto;
+    font-size: 24px;
+    font-weight: bolder;
+    margin-left: 20px;
+}
+
+.logo a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+header p{
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 13px;
+    border: none;
+    
+}
+
+a{
+    text-decoration: none;
+    border: none;
+    color: rgb(0, 0, 0);
+    outline: none;
+}
+
+
+
+header button{
+    background-color: transparent;
+    color: white;
+    outline: solid white 1px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+  border-radius: 5px;
+}
+
+header img{
+    width:30px;
+    height: 30px;
+    margin-right: 5px;
+    margin-top: 10px;
+}
+
+table tr td{
+    vertical-align: middle;
+}
+
+td button{
+    margin: 5px;
+}
+
+td button i{
+    font-size: 20px;
+}
+
+
+.modal-header{
+    background: rgb(134, 0, 89);
+    color: #fff;
+}
+
+.modal-body form {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0;
+}
+
+.modal-body form .imgholder{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.imgholder .upload{
+    position: absolute;
+    bottom: 0;
+    left: 10;
+    width: 100%;
+    height: 100px;
+    background: rgba(0,0,0,0.3);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.upload i{
+    color: #fff;
+    font-size: 35px;
+}
+
+.imgholder:hover .upload{
+    display: flex;
+}
+
+.imgholder .upload input{
+    display: none;
+}
+
+.modal-body form .inputField{
+    flex-basis: 68%;
+    border-left: 5px groove  rgb(134, 0, 89);
+    padding-left: 20px;
+}
+
+form .inputField > div{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+form .inputField > div label{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#userForm form .inputField > div label::after{
+    content: "*";
+    color: red;
+}
+
+form .inputField > div input{
+    width: 75%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    background: transparent;
+    border-bottom: 2px solid  rgb(134, 0, 89);
+}
+
+.modal-footer .submit{
+    font-size: 18px;
+}
+
+
+#readData form .inputField > div input{
+    color: #000;
+    font-size: 18px;
+}
+
+
+.request_btn{
+    display: inline;
+}
+footer{
+    height: 10vh;
+    font-size: 13px;
+    text-align: center;
+    align-content: center;
+    background-color: 2px solid  rgb(134, 0, 89);
+    color: rgb(255, 255, 255);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri,;
+    margin-top: 100px ;
+}
