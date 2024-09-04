@@ -49,6 +49,7 @@ nav ul{
 
 nav ul li{
     list-style-type: none;
+    font-size: 18px;
 }
 
 nav ul li a{
@@ -366,7 +367,7 @@ hr{
 .about_words  h4{
     font-size: 30px;
     font-family: 'Gill Sans', 'Gill Sans MT';
-    color: #000000;
+    color: #000000aa;
     margin-top: 5px;
     margin-bottom: 20px;
     border-left: 4px rgb(201, 0, 0) solid;
@@ -378,7 +379,7 @@ hr{
     font-size: 20px;
     line-height: 25px ;
     font-family: Arial, Helvetica, sans-serif;
-    color: #000000;
+    color: #000000aa;
     text-align: left;
     text-overflow: ellipsis;
     padding-left: 9px;
@@ -429,6 +430,10 @@ hr{
     background-color: #ffffff;
 }
 
+.table-container h1{
+    color: #000000aa;
+}
+
 .styled-table thead tr {
     background-color: rgb(139, 0, 0);
     color: #ffffff;
@@ -457,6 +462,29 @@ hr{
     color: #009879;
 
 
+
+}
+
+.faqs{
+    width: 80%;
+    margin: auto;
+    margin-top:100px;
+    color: #000000aa;
+}
+
+.faqs h1{
+    color: #000000aa;
+}
+
+
+iframe{
+    border-radius: 12px;
+}
+
+.i{
+    margin: auto;
+    width: 80%;
+    margin-top: 40px;
 }
 
 footer{
