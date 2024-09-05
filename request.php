@@ -82,6 +82,10 @@
             border-radius:50px;
         }
 
+input::placeholder{
+  color: rgba(255, 255, 255, 0.352);
+}
+
 @media screen and (max-width: 570px) {
     .request {
       width: 65%;
@@ -97,11 +101,11 @@
   <img src="Resources/blood.gif"></img>
   <h3>BLOOD REQUEST</h3>  
   <input type="hidden" name="access_key" value="5dac5cbd-7785-42f7-886d-986c9c6bc80c">
-  <input type="text" name="ID" placeholder="Hospital ID">
+  <input type="text" name="ID" placeholder="Hospital ID"  required>
   <br>
-  <input type="text" name="Name" placeholder="Hospital Name">
+  <input type="text" name="Name" placeholder="Hospital Name" required>
   <br>
-  <select name="bloodGroup" id="bloodGroup" aria-placeholder="bloodGroup">
+  <select name="bloodGroup" id="bloodGroup" aria-placeholder="bloodGroup" required>
     <option value="A+">A+</option>
     <option value="A-">A-</option>
     <option value="B+">B+</option>
@@ -112,9 +116,9 @@
     <option value="AB-">AB-</option>
     </select>
     <br>
-  <input type="number" name="Quantity" placeholder="Unit of Blood">
+  <input type="number" name="Quantity" placeholder="Unit of Blood" required>
   <br>
-  <input type="tel" name="Tel number" placeholder="Telephone Number">
+  <input type="tel" name="Tel number" placeholder="Telephone Number" required>
   <br>
   <button class="submit">Submit</button>
 </form>

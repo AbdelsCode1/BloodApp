@@ -31,6 +31,9 @@
 <a href="login.php"><button>Logout</button></a>
 </div>
 </header>
+<div class="title">
+<h1>Blood Donation Management System</h1>
+</div>
     <section class="p-3">
 
         <div class="row">

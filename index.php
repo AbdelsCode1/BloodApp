@@ -49,9 +49,9 @@
         </div>
         <ul id="menuList">
             <li><a href="">Home</a></li>
-            <li><a href="login.php">Admin</a></li>
-            <li><a href="booking.php">Donor</a></li>
-            <li><a href="request.php">Request</a></li>
+            <li><a href="login.php">Admin Login</a></li>
+            <li><a href="booking.php">Donor Appointment</a></li>
+            <li><a href="request.php">Blood Request</a></li>
             <li><a href=""></a></li>
         </ul>
         <div class="menu-icon">
@@ -150,25 +150,69 @@
                 <tr>
                     <td>Mon - Sat</td>
                     <td>10:00 AM - 4:00 PM</td>
-                    <td>Community Health Center</td>
+                    <td>Transfusion Ghana</td>
                     <td>456 Elm St, Cityville</td>
                     <td>233 482 277 35</td>
                 </tr>
                 <tr>
                     <td>Mon - Sat</td>
                     <td>10:00 AM - 4:00 PM</td>
-                    <td>University Hospital</td>
+                    <td>Blood Bank KATH</td>
                     <td>789 Maple St, Cityville</td>
                     <td>233 482 277 35</td>
                 </tr>
             </tbody>
         </table>
     </div>
+    <div class="faqs" style="width:50% margin:auto;">
+      <h1 style:color:darkred;>FAQs</h1>
+    <div class="accordion" id="accordionExample" >
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+        Who is eligible for blood donations?
+      </button>
+    </h2>
+    <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <strong>An eligible blood donor?</strong><br> Eligible blood donors are typically healthy individuals aged 17-65 years, weighing at least 50 kg, with no major medical conditions, infections, or risky behaviors.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        Who can request for blood?
+      </button>
+    </h2>
+    <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <strong>who can request for Blood?</strong><br> Registered hospitals can request blood from the blood bank using their assigned hospital IDs along with other required details.
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+        Who is a donor?
+      </button>
+    </h2>
+    <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+      <strong>Donor? </strong><br> A donor is someone who voluntarily gives something of value, such as money, goods, time, or, in the case of blood donation, blood, to help others or support a cause.
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+<div class="i">
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2028851.3762013!2d-3.9351654052734024!3d6.696319791772654!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdb97ddd70e8927%3A0x3673d24c22bf181!2sBlood%20Bank%20KATH!5e0!3m2!1sen!2sgh!4v1725275955613!5m2!1sen!2sgh" width="100%" height="600" style="border:0; margin-top:70px; " allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe><script src="https://kit.fontawesome.com/f8e1a90484.js" crossorigin="anonymous"></script>
+</div> 
 </body>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-<script src="https://kit.fontawesome.com/f8e1a90484.js" crossorigin="anonymous"></script>
 <script src="javascript.js" type="text/javascript"></script>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 <script>
   AOS.init();
 </script>
